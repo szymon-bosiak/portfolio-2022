@@ -1,0 +1,55 @@
+.hero {
+    display: flex;
+    justify-content: right;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.greatings_area {
+    margin-top: 13rem;
+    width: 50rem;
+    padding: 4rem 0 4rem 7rem;
+    background-color: var(--frosted-glass-color);
+    backdrop-filter: blur(3.5px);
+    margin-bottom: 1.7rem;
+}
+
+.hello, .social, .about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: .7rem;
+}
+
+.hello {
+    font-weight: 600;
+    font-size: 40px;
+    padding-bottom: .8rem;
+}
+
+.decoration_dark {
+    position: relative;
+}
+
+.decoration_dark::before {
+    top: 2.4rem;
+    left: 0;
+    width: 102%;
+    height: 1.2rem;
+    content: "";
+    position: absolute;
+    background-color: var(--accent-color);
+}
+
+.social_content {
+    font-size: 27px;
+}
+
+.greetings_icon {
+    margin-right: 1.5rem;
+}
+
+.about_me {
+    font-weight: 300;
+    font-size: 17px;
+}

@@ -1,0 +1,105 @@
+.my_skills {
+    color: var(--background-color);
+    background-color: white;
+}
+
+.my_skills_bg {
+    margin-right: 3rem;
+    padding: 5rem 0;
+}
+
+.my_skills_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgba(110, 110, 110, 0.192);
+    backdrop-filter: blur(3.5px);
+    text-align: left;
+    padding: 2rem 3rem;
+}
+
+.profile_header {
+    max-width: 20rem;
+}
+
+.profile_header h1 {
+    display: flex;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 6rem;
+}
+
+.decoration_white {
+    position: relative;
+    margin-left: 1.5rem;
+}
+
+.decoration_white::before {
+    top: 3.5rem;
+    left: 0.3rem;
+    width: 102%;
+    height: 1.3rem;
+    content: "";
+    position: absolute;
+    background-color: rgba(65, 65, 65, 0.116);
+    backdrop-filter: blur(3.5px);
+    z-index: -1;
+}
+
+.profile_header img {
+    max-width: 25rem;
+    border-radius: .6rem;
+}
+
+.knowledge {
+    margin-top: 2rem;
+}
+
+.knowledge_component {
+    position: relative;
+    right: -10rem;
+    background-color: rgba(65, 65, 65, 0.178);
+    backdrop-filter: blur(3.5px);
+    border-radius: 4rem;
+    margin: 1.5rem 0;
+    padding: 1.3rem 0 1.3rem 3.5rem;
+}
+
+.technology {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.technology p {
+    position: relative;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon_bg {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--smoked-white);
+    border-radius: .2rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    font-size: 25px;
+}
+
+.level_points {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--smoked-white);
+}
+
+.level_desc {
+    padding-top: .2rem;
+    color: var(--smoked-white);
+    font-weight: 300;
+}
+
+
+
