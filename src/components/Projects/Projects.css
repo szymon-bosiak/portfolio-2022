@@ -78,3 +78,21 @@
     background-color: var(--lines-color);
     color: var(--smoked-white);
 }
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 900px) {
+
+    .project {
+        max-width: 30rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        max-height: none;
+    }
+
+    .project_txt {
+        margin: 2rem 0 3rem 0;
+    }
+
+}

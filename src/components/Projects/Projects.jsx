@@ -8,7 +8,7 @@ import prev from '../../assets/prev_portfolio.png'
 
 const Projects = () => {
   return (
-    <div className='projects_area'>
+    <div id='projects' className='projects_area'>
         <div className="projects_container">
             <div className="Projects_flex">
                 <div className="projects_header">
@@ -28,7 +28,7 @@ const Projects = () => {
                             <p>In this project I tested my skills in styling websites and added a bit of JS functionalities.</p>
                         </div>
                         <div className="project_btn">
-                            <a href="#"><button>View code</button></a>
+                              <a href="https://github.com/szymon-bosiak/starbucks" target="_blank" rel="noopener noreferrer"><button>View code</button></a>
                         </div>
                     </div>
                 </div>
@@ -39,13 +39,13 @@ const Projects = () => {
                       </div>
                       <div className="project_txt">
                           <div className="project_name">
-                              <h3>Thing counter</h3>
+                              <h3>Things counter</h3>
                           </div>
                           <div className="project_desc">
                               <p>In this project I wanted to learn about React Hooks and custom Hooks.</p>
                           </div>
                           <div className="project_btn">
-                              <a href="#"><button>View code</button></a>
+                              <a href="https://github.com/szymon-bosiak/things-counter" target="_blank" rel="noopener noreferrer"><button>View code</button></a>
                           </div>
                       </div>
                   </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                               <p>The form is functional and does have input validation.</p>
                           </div>
                           <div className="project_btn">
-                              <a href="#"><button>View code</button></a>
+                              <a href="https://github.com/szymon-bosiak/chrust-form-app" target="_blank" rel="noopener noreferrer"><button>View code</button></a>
                           </div>
                       </div>
                   </div>
@@ -80,7 +80,7 @@ const Projects = () => {
                               <p>Here I was creating an App with use of an API.</p>
                           </div>
                           <div className="project_btn">
-                              <a href="#"><button>View code</button></a>
+                              <a href="https://github.com/szymon-bosiak/cookbook-app" target="_blank" rel="noopener noreferrer"><button>View code</button></a>
                           </div>
                       </div>
                   </div>
@@ -97,7 +97,7 @@ const Projects = () => {
                               <p>Sample portfolio where I implemented a few React lablaries.</p>
                           </div>
                           <div className="project_btn">
-                              <a href="#"><button>View code</button></a>
+                              <a href="https://github.com/szymon-bosiak/portfolio-react" target="_blank" rel="noopener noreferrer"><button>View code</button></a>
                           </div>
                       </div>
                   </div>

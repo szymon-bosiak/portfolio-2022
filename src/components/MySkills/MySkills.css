@@ -101,5 +101,30 @@
     font-weight: 300;
 }
 
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 800px) {
+
+    .my_skills_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile_header h1 {
+        margin: 0;
+    }
+
+    .profile_header img {
+        display: none;
+    }
+
+    .knowledge_component {
+        width: 100vw;
+        right: -2rem;
+    }
+
+}
+
+
 
 

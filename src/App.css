@@ -14,15 +14,24 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
 }
 
 body {
+    position: relative;
     color: white;
     text-align: center;
     height: 100%;
+    width: 100%;
     line-height: 1.6;
     overflow-x: hidden;
     cursor: default;
+    
 }
 
 a {
@@ -40,3 +49,15 @@ a {
 .social_content_item:hover {
     color: var(--hover-color);
 }
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 599px) {}
+
+@media screen and (min-width: 600px) {}
+
+@media screen and (min-width: 900px) {}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1800px) {}

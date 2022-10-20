@@ -4,13 +4,14 @@ import profile from '../../assets/profile.jpg'
 import { BsSquareFill, BsSquare, BsGithub } from 'react-icons/bs'
 import { DiJavascript1, DiReact, DiCss3Full } from 'react-icons/di'
 import { GiResize } from 'react-icons/gi'
-
+import { BiSearchAlt } from 'react-icons/bi'
 
 const MySkills = () => {
   return (
-    <div className='my_skills'>
+    <div id='about' className='my_skills'>
       <div className="my_skills_bg">
         <div className="my_skills_container">
+          
           <div className="profile_header">
             <div className="profile_header_txt">
               <h1>My <div className='decoration_white'> skills</div></h1>
@@ -121,6 +122,27 @@ const MySkills = () => {
                 </div>
                 <div className="level_desc">
                   <p>regular</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="knowledge_component">
+              <div className="technology">
+                <div className="icon_bg">
+                  <i><BiSearchAlt /></i>
+                </div>
+                <p>Googling</p>
+              </div>
+              <div className="level">
+                <div className="level_points">
+                  <BsSquareFill />
+                  <BsSquareFill />
+                  <BsSquareFill />
+                  <BsSquareFill />
+                  <BsSquareFill />
+                </div>
+                <div className="level_desc">
+                  <p>expert</p>
                 </div>
               </div>
             </div>

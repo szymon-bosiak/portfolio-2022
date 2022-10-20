@@ -5,6 +5,7 @@ import { BsGithub, BsLinkedin, BsFacebook } from 'react-icons/bs'
 const Gratings = () => {
   return (
     <div className='hero'>
+      <div className="greetings_flex">
         <div className='greatings_area'>
             <div className='hello'>
                 <p>Hi, I'm Szymon |</p>
@@ -21,11 +22,12 @@ const Gratings = () => {
               </div>  
             </div>
 
-        <div className='about_me'>
-          <p>I love creating pretty things 🏛️ I'm a lifelong learner 🎓</p>
-          <p>and I wish there was a soundtrack to real life 🎧</p>
+          <div className='about_me'>
+            <p>I love creating pretty things 🏛️ I'm a lifelong learner 🎓</p>
+            <p>and I wish there was a soundtrack to real life 🎧</p>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
   )
 }

@@ -50,3 +50,25 @@
 .nav_link_line:hover::before {
     height: .2rem;
 }
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 599px) {
+    .navbar {
+        padding: 3.5rem 2rem;
+        flex-direction: column;
+    }   
+
+    .name {
+        margin-bottom: 1rem;
+    }
+
+    .nav_list {
+        justify-content: center;
+    }
+
+    .nav_link {
+        margin: 0;
+        padding: 0 2.5rem;
+    }
+}

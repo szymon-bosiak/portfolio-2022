@@ -48,7 +48,7 @@
 
 .contact_icons {
     margin-top: .6rem;
-    padding: .5rem;
+    padding: .5rem 1rem;
     border-radius: 1.3rem;
     background-color: var(--background-color);
 }
@@ -58,4 +58,18 @@
     top: .2rem;
     font-size: 34px;
     margin: 0 .75rem;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 600px) {
+
+    .footer_container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .copyright {
+        margin-right: 1rem;
+    }
+
 }
