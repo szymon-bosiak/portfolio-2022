@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-2022/static/css/main.fccf4b73.css",
-    "main.js": "/portfolio-2022/static/js/main.bb22c29b.js",
-    "static/media/Chrust.png": "/portfolio-2022/static/media/Chrust.7b5346428fb0bf1b22ed.png",
-    "static/media/Thing.png": "/portfolio-2022/static/media/Thing.6e547c7a676cc1d00981.png",
-    "static/media/delicious.png": "/portfolio-2022/static/media/delicious.b971656e67fb6ba79405.png",
-    "static/media/starbucks2.png": "/portfolio-2022/static/media/starbucks2.ba9a4a763630b119f90d.png",
-    "static/media/prev_portfolio.png": "/portfolio-2022/static/media/prev_portfolio.5ab4c739f8e591428638.png",
-    "static/media/profile.jpg": "/portfolio-2022/static/media/profile.e48c6c1ce0016e2b8c1a.jpg",
-    "index.html": "/portfolio-2022/index.html",
-    "main.fccf4b73.css.map": "/portfolio-2022/static/css/main.fccf4b73.css.map",
-    "main.bb22c29b.js.map": "/portfolio-2022/static/js/main.bb22c29b.js.map"
+    "main.css": "/static/css/main.fccf4b73.css",
+    "main.js": "/static/js/main.a50f5cae.js",
+    "static/media/Chrust.png": "/static/media/Chrust.7b5346428fb0bf1b22ed.png",
+    "static/media/Thing.png": "/static/media/Thing.6e547c7a676cc1d00981.png",
+    "static/media/delicious.png": "/static/media/delicious.b971656e67fb6ba79405.png",
+    "static/media/starbucks2.png": "/static/media/starbucks2.ba9a4a763630b119f90d.png",
+    "static/media/prev_portfolio.png": "/static/media/prev_portfolio.5ab4c739f8e591428638.png",
+    "static/media/profile.jpg": "/static/media/profile.e48c6c1ce0016e2b8c1a.jpg",
+    "index.html": "/index.html",
+    "main.fccf4b73.css.map": "/static/css/main.fccf4b73.css.map",
+    "main.a50f5cae.js.map": "/static/js/main.a50f5cae.js.map"
   },
   "entrypoints": [
     "static/css/main.fccf4b73.css",
-    "static/js/main.bb22c29b.js"
+    "static/js/main.a50f5cae.js"
   ]
 }
